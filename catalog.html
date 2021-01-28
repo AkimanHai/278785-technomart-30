@@ -61,7 +61,6 @@
             <span>-</span>
             <label><input type="text" value="30000"></label>
         </fieldset>
-
         <fieldset>
         <legend>Производители:</legend>
         <ul>
@@ -87,9 +86,17 @@
           </li>
         </ul>
         </fieldset>
-
         <fieldset>
         <legend>Питание:</legend>
+        <ul>
+          <li>
+            <input type="radio" name="power-supply" value="rechargeable" id="filter-power-supply" checked>
+            <label for="filter-power-supply">Аккумуляторные</label>
+          </li><li>
+            <input type="radio" name="power-supply" value="network" id="filter-power-supply">
+            <label for="filter-power-supply">Сетевые</label>
+          </li>
+        </ul>
         </fieldset>
         <button type="submit">Показать</button>
         </form>
