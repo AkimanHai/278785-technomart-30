@@ -52,9 +52,48 @@
         </li>
       </ul>
 
-      <section>
-          <h2>Фильтры перфораторов</h2>
-      </section>
+    <section>
+        <h2>Фильтр товаров</h2>
+        <form method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+            <legend>Цена:</legend>
+            <label><input type="text" value="0"></label>
+            <span>-</span>
+            <label><input type="text" value="30000"></label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Производители:</legend>
+        <ul>
+          <li>
+            <input type="checkbox" name="BOSCH" id="filter-BOSCH" checked>
+            <label for="filter-BOSCH">BOSCH</label>
+          </li>
+          <li>
+            <input type="checkbox" name="interskol" id="filter-interskol">
+            <label for="filter-interskol">ИНТЕРСКОЛ</label>
+          </li>
+          <li>
+            <input type="checkbox" name="makita" id="filter-makita" checked>
+            <label for="filter-makita">MAKITA</label>
+          </li>
+          <li>
+            <input type="checkbox" name="dewalt" id="filter-dewalt">
+            <label for="filter-dewalt">Dewalt</label>
+          </li>
+          <li>
+            <input type="checkbox" name="hitachi" id="filter-hitachi">
+            <label for="filter-hitachi">Hitachi</label>
+          </li>
+        </ul>
+        </fieldset>
+
+        <fieldset>
+        <legend>Питание:</legend>
+        </fieldset>
+        <button type="submit">Показать</button>
+        </form>
+    </section>
 
       <section>
       </section>
