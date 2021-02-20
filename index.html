@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Техномарт</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/favicons/32.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/favicons/180.png">
@@ -213,23 +214,23 @@
 
   <footer class="main-footer">
     <section class="footer-menu">
-    <p><a href="#">Техномарт</a></p>
+    <p class="button">
+      <a class="main-logo" href="#">Техномарт</a>
+    </p>
     <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
       <a href="tel:+78125550555">+7 (812) 555-05-55</a>
     </p>
 
-
-      <h2>Меню</h2>
-      <ul>
-        <li>Компания</li>
-        <li>Новости</li>
-        <li>Каталог</li>
-        <li>Доставка</li>
-        <li>Контакты</li>
-        <li>Материалы</li>
-        <li>Техника</li>
-        <li>Инструмент</li>
-        <li>Спецпредложения</li>
+      <ul class="footer-menu-list">
+        <li class="footer-menu-item">Компания</li>
+        <li class="footer-menu-item">Новости</li>
+        <li class="footer-menu-item">Каталог</li>
+        <li class="footer-menu-item">Доставка</li>
+        <li class="footer-menu-item">Контакты</li>
+        <li class="footer-menu-item">Материалы</li>
+        <li class="footer-menu-item">Техника</li>
+        <li class="footer-menu-item">Инструмент</li>
+        <li class="footer-menu-item">Спецпредложения</li>
       </ul>
     </section>
 
@@ -242,24 +243,24 @@
         <h2>Социальные сети</h2>
         <ul>
         <li>
-          <a href="#">Вконтакте</a>
+          <a class="social-button" href="#">Вконтакте</a>
         </li>
         <li>
-          <a href="#">Фейсбук</a>
+          <a class="social-button" href="#">Фейсбук</a>
         </li>
         <li>
-          <a href="#">Инстаграм</a>
+          <a class="social-button" href="#">Инстаграм</a>
         </li>
       </ul>
       </section>
 
-    <p>Обратная связь:
+    <p class="footer-copyright">Обратная связь:
       <address>
         <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
       </address>
     </p>
 
-    <p>
+    <p class="footer-copyright">
       Разработано:
       <a href="https://htmlacademy.ru">HTML Academy</a>
     </p>
@@ -267,30 +268,30 @@
 
   </footer>
 
-  <section>
+  <section class="modal modal-write">
     <h2>Напишите нам</h2>
     <form action="https://echo.htmlacademy.ru" method="post">
       <p>
-        <label for="name">Ваше имя:</label>
-        <input id="name" type="text" name="name" placeholder="Имя Фамилия">
+        <label class="modal-title" for="name">Ваше имя:</label>
+        <input class="modal-text" id="name" type="text" name="name" placeholder="Имя Фамилия">
       </p>
       <p>
-        <label for="e-mail">Ваш e-mail:</label>
-        <input id="e-mail" type="email" name="e-mail" placeholder="email@example.com">
+        <label class="modal-title" for="e-mail">Ваш e-mail:</label>
+        <input class="modal-text" id="e-mail" type="email" name="e-mail" placeholder="email@example.com">
       </p>
       <p>
-        <label for="text-letter">Текс письма:</label>
-        <input id="text-letter" type="text" name="text-letter" placeholder="В свободной форме">
+        <label class="modal-title" for="text-letter">Текс письма:</label>
+        <input class="modal-text" id="text-letter" type="text" name="text-letter" placeholder="В свободной форме">
       </p>
-      <button type="submit">Отправить</button>
+      <button class="button" type="submit">Отправить</button>
     </form>
-    <button type="button">Закрыть</button>
+    <button class="modal-close" type="button">Закрыть</button>
   </section>
 
-  <section>
+  <section class="modal modal-map">
     <h2>Как до нас добраться</h2>
     <!-- Здесь будет карта -->
-    <button type="button">Закрыть</button>
+    <button class="modal-close" type="button">Закрыть</button>
   </section>
 
   </body>
